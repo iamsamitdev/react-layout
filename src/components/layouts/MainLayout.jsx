@@ -5,8 +5,10 @@ function MainLayout({children}) {
   return (
       <div>
           <Navbar />
-          <div className="container pt-5">
-              {children}
+          <div className="container">
+            <div className="row navpadding">
+                {children}
+            </div>
           </div>
           <Footer />
       </div>

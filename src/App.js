@@ -7,7 +7,7 @@ import Contact from './Contact';
 function App() {
   return (
     <Routes>
-      <Route path="/home" element={<Home />} />
+      <Route path="/" exact={true} element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/service" element={<Service />} />
       <Route path="/contact" element={<Contact />} />
